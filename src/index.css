@@ -17,7 +17,7 @@ body {
 }
 
 .category-background {
-    background-color: RGBa(150,150, 60, .5);
+  background-color: RGBa(150,150, 60, .5);
 }
 
 .arrow {
@@ -85,4 +85,13 @@ body {
   margin-top: 10px;
   display: flex;
   justify-content: center;
+}
+
+.error{
+  margin: auto;
+  width: 50%;
+  border: 2px solid black;
+  background-image: url(dust_scratches.png);
+  padding: 10px;
+  text-align: center;
 }

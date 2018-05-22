@@ -6,9 +6,7 @@ class PointsRemaining extends React.Component {
       <div className="PRBlock">
         <img src="./vaultboy.png"/>
         <h1 className="points">Points Remaining</h1>
-        <div className="remain">0</div>
-
-
+        <div className="remain">{this.props.remaining}</div>
       </div>
     )
   }
